@@ -20,7 +20,7 @@ app.use(express.static("upload"));
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-CORS
+//CORS
 app.use('*',function(req,res,next){
     res.set('Access-Control-Allow-Origin','*');
     res.set('Access-Control-Allow-Headers','content-type');
