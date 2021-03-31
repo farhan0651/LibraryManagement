@@ -8,6 +8,7 @@ const Register = require('./models/userModel')
 
 const userRoutes = require('./routes/users')
 const registerRoutes = require('./routes/register')
+const { compareSync } = require('bcryptjs')
 
 mongoose.connect('mongodb+srv://Farhan:LibraryManagement@cluster0.vxibd.mongodb.net/Library?retryWrites=true&w=majority', { useNewUrlParser: true })
 
@@ -43,5 +44,9 @@ app.use('/reg', registerRoutes);
 app.listen(8000,function(req,res){
     console.log("Server started");
 })
+
+// app.listen(process.env.PORT || 8000,function(){
+//     console.log("Server has started");
+// });
 
 module.exports = app
