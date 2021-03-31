@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Site Metas -->
+    <title>Recommendations for you</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/clipart-library-media-specialist-13.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+    <!-- Design fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet"> 
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- FontAwesome Icons core CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive styles for this template -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Colors for this template -->
+    <link href="css/colors.css" rel="stylesheet">
+
+    <!-- Version Garden CSS for this template -->
+    <link href="css/version/garden.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <div id="wrapper">
+        <div class="collapse top-search" id="collapseExample">
+            <div class="card card-block">
+                <div class="newsletter-widget text-center">
+                    <form class="form-inline">
+                        <input type="text" class="form-control" placeholder="What you are looking for?">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                    </form>
+                </div><!-- end newsletter -->
+            </div>
+        </div><!-- end top-search -->
+
+        <div class="topbar-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs-down">
+                        <div class="topsocial">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/farhan-khan-b31687170/" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.github.com" data-toggle="tooltip" data-placement="bottom" title="github"><i class="fa fa-github"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
+                        </div><!-- end social -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 hidden-md-down">
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="topsearch text-right">
+                            <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-search"></i> Search</a>
+                        </div><!-- end search -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end header-logo -->
+        </div><!-- end topbar -->
+
+        <div class="header-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo">
+                            <a href="garden-index.html"><img src="images/clipart-library-media-specialist-13.png" alt=""></a>
+                        </div><!-- end logo -->
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end header-logo -->
+        </div><!-- end header -->
+
+        <header class="header">
+            <div class="container">
+                <nav class="navbar navbar-inverse navbar-toggleable-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Forest Timemenu" aria-controls="Forest Timemenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-md-center" id="Forest Timemenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" href="/home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" onclick="showFav()">Favourites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" onclick="showCart()">Books Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-green-hover" href="/">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div><!-- end container -->
+        </header><!-- end header -->
+
+        <div class="page-title wb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <h2><i class="fa fa-leaf bg-green"></i>Recommendations</h2>
+                    </div><!-- end col -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href='/home'>Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                            <li class="breadcrumb-item active">Recommendations</li>
+                        </ol>
+                    </div><!-- end col -->                    
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end page-title -->
+
+        <section class="section wb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                        <div class="page-wrapper">
+                            <div class="blog-list clearfix">
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="garden-single.html" title="">
+                                                <img src="images/f.jpg" alt="" class="img-fluid">
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <span class="bg-aqua"><a href="garden-category.html" title="">1</a></span>
+                                        <h4><a href="garden-single.html" title="">Rich Dad Poor Dad</a></h4>
+                                        <p>Robert Kiyosaki’s Rich Dad Poor Dad was first published in 1997 and quickly became a must-read for people interested in investing, money, and the global economy. The book has been translated into dozens of languages, sold around the world, and has become the #1 Personal Finance book of all time.
+
+                                            The overarching theme of Rich Dad Poor Dad is how to use money as a tool for wealth development. 
+                                            
+                                            It destroys the myth that the rich are born rich, explains why your personal residence may not really be an asset, describes the real difference between an asset and a liability, and much more.</p>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i> 239</a></small>
+                                        <small><a href="garden-single.html" title="">11 July, 1997</a></small>
+                                        <small><a href="#" title="">by Robert Kiyosaki</a></small>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="garden-single.html" title="">
+                                                <img src="images/AngelsnDemons.jpg" alt="" class="img-fluid">
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <span class="bg-aqua"><a href="garden-category.html" title="">2</a></span>
+                                        <h4><a href="garden-single.html" title="">Angels and Demons</a></h4>
+                                        <p>Angels & Demons is a 2000 bestselling mystery-thriller novel written by American author Dan Brown and published by Pocket Books and then by Corgi Books. The novel introduces the character Robert Langdon, who recurs as the protagonist of Brown's subsequent novels. Angels & Demons shares many stylistic literary elements with its sequels, such as conspiracies of secret societies, a single-day time frame, and the Catholic Church. Ancient history, architecture, and symbology are also heavily referenced throughout the book. A film adaptation was released on May 15, 2009.</p>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i> 616</a></small>
+                                        <small><a href="garden-single.html" title="">10 May, 2000</a></small>
+                                        <small><a href="#" title="">by Dan Brown</a></small>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="garden-single.html" title="">
+                                                <img src="images/daVinciCode.jpg" alt="" class="img-fluid">
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <span class="bg-aqua"><a href="garden-category.html" title="">3</a></span>
+                                        <h4><a href="garden-single.html" title="">Da Vinci Code</a></h4>
+                                        <p>The Da Vinci Code is a 2003 mystery thriller novel by Dan Brown. It is Brown's second novel to include the character Robert Langdon: the first was his 2000 novel Angels & Demons. The Da Vinci Code follows "symbologist" Robert Langdon and cryptologist Sophie Neveu after a murder in the Louvre Museum in Paris causes them to become involved in a battle between the Priory of Sion and Opus Dei over the possibility of Jesus Christ and Mary Magdalene having had a child together.
+
+                                            The novel explores an alternative religious history, whose central plot point is that the Merovingian kings of France were descended from the bloodline of Jesus Christ and Mary Magdalene, ideas derived from Clive Prince's The Templar Revelation (1997) and books by Margaret Starbird. The book also refers to The Holy Blood and the Holy Grail (1982) though Dan Brown has stated that it was not used as research material.
+                                            
+                                            The Da Vinci Code provoked a popular interest in speculation concerning the Holy Grail legend and Mary Magdalene's role in the history of Christianity. The book has, however, been extensively denounced by many Christian denominations as an attack on the Catholic Church, and consistently criticized for its historical and scientific inaccuracies. The novel nonetheless became a massive worldwide bestseller[1] that sold 80 million copies as of 2009[2] and has been translated into 44 languages. In November 2004, Random House published a Special Illustrated Edition with 160 illustrations. In 2006, a film adaptation was released by Columbia Pictures.</p>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i> 1234</a></small>
+                                        <small><a href="garden-single.html" title="">09 April, 2003</a></small>
+                                        <small><a href="#" title="">by Dan Brown</a></small>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                                <div class="row">
+                                    <div class="col-lg-10 offset-lg-1">
+                                        <div class="banner-spot clearfix">
+                                            <div class="banner-img">
+                                                <img src="upload/banner_05.jpg" alt="" class="img-fluid">
+                                            </div><!-- end banner-img -->
+                                        </div><!-- end banner -->
+                                    </div><!-- end col -->
+                                </div><!-- end row -->
+
+                                <hr class="invis">
+
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="garden-single.html" title="">
+                                                <img src="images/divergent.jpg" alt="" class="img-fluid">
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <span class="bg-aqua"><a href="garden-category.html" title="">4</a></span>
+                                        <h4><a href="garden-single.html" title="">Divergent</a></h4>
+                                        <p>Divergent is the debut novel of American novelist Veronica Roth, published by Harper Collins Children's Books in 2011. The novel is the first of the Divergent trilogy, a series of young adult dystopian novels set in a Divergent Universe.[1] The novel Divergent features a post-apocalyptic version of Chicago and follows Beatrice "Tris" Prior as she explores her identity within a society that defines its citizens by their social and personality-related affiliation with five factions, which removes the threat of anyone exercising independent will and re-threatening the population's safety. Underlying the action and dystopian focused main plot is a romantic subplot between Tris and one of her instructors in the Dauntless faction, nicknamed Four.
+
+                                            The novel has been compared to other young adult books such as The Hunger Games and The Maze Runner because of its similar themes and target audience. In particular, the novel explores the themes common to young adult fiction, such as adult authority and the transition from childhood to maturity, as well as such broader motifs as the place of violence and social structures within a post-apocalyptic society. Its major plot device, the division of society into personality types, is one used in other science fiction works. Beyond its literary context, Roth's open declaration of her religion as a Christian has brought commentary from Christian communities both endorsing and challenging the novel.
+                                            
+                                            Roth wrote Divergent while working on a Creative Writing degree at Northwestern University, and it was quickly purchased for publication alongside the subsequent books in the trilogy (completed in October 2013).[1] Summit Entertainment purchased the media rights to the book in 2011 and subsequently produced a film adaptation titled Divergent which was released March 21, 2014. The film, a success amongst audiences, generated $288,747,895 at the box office despite mixed reviews from critics.</p>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i> 4441</a></small>
+                                        <small><a href="garden-single.html" title="">26 April, 2011</a></small>
+                                        <small><a href="#" title="">by Veronica Roth</a></small>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="garden-single.html" title="">
+                                                <img src="images/beartown.jpg" alt="" class="img-fluid">
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <span class="bg-aqua"><a href="garden-category.html" title="">5</a></span>
+                                        <h4><a href="garden-single.html" title="">Beartown</a></h4>
+                                        <p>Beartown (original title in Swedish: Björnstad) is a novel by Swedish writer Fredrik Backman. The novel, noted as hockey literature, centers on a declining youth hockey team in a small town. The story follows the events leading up to the rape of a 15-year-old girl by the star junior hockey player, and the consequences for the victim, the players, their families, friends, and the community which has a long-standing reputation as a hockey town. It is the first book in the Beartown series, followed by Us Against You.
+
+                                            The book was removed from the reading list of a high school in North Carolina when parents described it as "vulgar" and "graphic".</p>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i> 2235</a></small>
+                                        <small><a href="garden-single.html" title="">09 September, 2016</a></small>
+                                        <small><a href="#" title="">by Fredrik Backman</a></small>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="garden-single.html" title="">
+                                                <img src="images/kiteRunner.jpg" alt="" class="img-fluid">
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <span class="bg-aqua"><a href="garden-category.html" title="">6</a></span>
+                                        <h4><a href="garden-single.html" title="">The Kite Runner</a></h4>
+                                        <p>The Kite Runner is the first novel by Afghan-American author Khaled Hosseini. Published in 2003 by Riverhead Books, it tells the story of Amir, a young boy from the Wazir Akbar Khan district of Kabul. The story is set against a backdrop of tumultuous events, from the fall of Afghanistan's monarchy through the Soviet military intervention, the exodus of refugees to Pakistan and the United States, and the rise of the Taliban regime.
+
+                                            Hosseini has commented that he considers The Kite Runner to be a father-son relationship story, emphasizing the familial aspects of the narrative, an element that he continued to use in his later works.[2] Themes of guilt and redemption feature prominently in the novel,[3] with a pivotal scene depicting an act of sexual assault that happens against Hassan that Amir fails to prevent. The situation as a whole was the main reason why Amir and Hassan's friendship ended. The latter half of the book centers on Amir's attempts to atone for this transgression by rescuing Hassan's son two decades later.
+                                            
+                                            The Kite Runner became a bestseller after being printed in paperback and was popularized in book clubs. It appeared on the New York Times bestseller list for over two years,[4] with over seven million copies sold in the United States.[5] Reviews were generally positive, though parts of the plot drew significant controversy in Afghanistan. A number of adaptations were created following publication, including a 2007 film of the same name, several stage performances, and a graphic novel. The novel is also available in a multi-CD audiobook read by the author.</p>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i> 1567</a></small>
+                                        <small><a href="garden-single.html" title="">06 July, 2003</a></small>
+                                        <small><a href="#" title="">by Khaled Hosseini</a></small>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="garden-single.html" title="">
+                                                <img src="images/peaceLike.jpg" alt="" class="img-fluid">
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <span class="bg-aqua"><a href="garden-category.html" title="">7</a></span>
+                                        <h4><a href="garden-single.html" title="">Peace Like a River</a></h4>
+                                        <p>Peace Like a River (2001) is a best-selling novel by Leif Enger, who took the title from the lyrics of the hymn "It Is Well with My Soul", which was performed at his wedding. Enger wrote the novel to amuse his family, taking story suggestions from his children and giving the lead character asthma to encourage one of his sons, who also has asthma.</p>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i> 1451</a></small>
+                                        <small><a href="garden-single.html" title="">05 July, 2001</a></small>
+                                        <small><a href="#" title="">by Leif Enger</a></small>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="garden-single.html" title="">
+                                                <img src="images/threeJunes.jpg" alt="" class="img-fluid">
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <span class="bg-aqua"><a href="garden-category.html" title="">8</a></span>
+                                        <h4><a href="garden-single.html" title="">Three Junes</a></h4>
+                                        <p>Three Junes follows the McLeods, a Scottish family, throughout their lives and relationships. Its members are Paul and Maureen, and their sons: Fenno, and twins David and Dennis. At the opening of the book, Paul is on a tour of Greece, Maureen has died from lung cancer, and Fenno is running a bookstore in New York City. Other important characters include Malachy, Fenno's friend who is a music critic and suffering from AIDS, and Fern, an unwed pregnant woman, whom Paul formerly met on his trip to Greece, trying to recover from his wife's death. Finally, another important character of the book is Tony, a photographer, who is a house-sitter, never living in the same house for more than a few months. He is a catalyst in the narrative development of Fern and Fenno. He is an old friend with Fern and he develops a tumultuous relationship with Fenno.
+
+                                            The novel is written in three parts, using the flashback technique.[2] The first takes place in 1989 and is told from Paul's perspective; the second, in 1995 and from Fenno's point of view; the third, in 1999 and from Fern's perspective. As Julia Glass has said herself, the book should be viewed not as a trilogy but rather a triptych – elements that may seem small in one section play a large role in another, like a triptych, rather than a consecutive series of novels in a trilogy.</p>
+                                        <small><a href="garden-category.html" title=""><i class="fa fa-eye"></i> 4442</a></small>
+                                        <small><a href="garden-single.html" title="">07 May, 2002</a></small>
+                                        <small><a href="#" title="">by Julia Glass</a></small>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+                            </div><!-- end blog-list -->
+                        </div><!-- end page-wrapper -->
+
+                        <hr class="invis">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <nav aria-label="Page navigation">
+                                    <ul class="pagination justify-content-start">
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">Next</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div><!-- end col -->
+                        </div><!-- end row -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                        <div class="sidebar">
+                            <div class="widget">
+                                <h2 class="widget-title">Search</h2>
+                                <form class="form-inline search-form">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Search on the site">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div><!-- end widget -->
+
+                            <div class="widget">
+                                <h2 class="widget-title">Recent Posts</h2>
+                                <div class="blog-list-widget">
+                                    <div class="list-group">
+                                        <a href="garden-single.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="w-100 justify-content-between">
+                                                <img src="upload/garden_sq_09.jpg" alt="" class="img-fluid float-left">
+                                                <h5 class="mb-1">5 Beautiful buildings you need to see before dying</h5>
+                                                <small>12 Jan, 2016</small>
+                                            </div>
+                                        </a>
+
+                                        <a href="garden-single.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="w-100 justify-content-between">
+                                                <img src="upload/garden_sq_06.jpg" alt="" class="img-fluid float-left">
+                                                <h5 class="mb-1">Let's make an introduction for creative life</h5>
+                                                <small>11 Jan, 2016</small>
+                                            </div>
+                                        </a>
+
+                                        <a href="garden-single.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="w-100 last-item justify-content-between">
+                                                <img src="upload/garden_sq_02.jpg" alt="" class="img-fluid float-left">
+                                                <h5 class="mb-1">Did you see the most beautiful sea in the world?</h5>
+                                                <small>07 Jan, 2016</small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div><!-- end blog-list -->
+                            </div><!-- end widget -->
+
+                            <div class="widget">
+                                <h2 class="widget-title">Advertising</h2>
+                                <div class="banner-spot clearfix">
+                                    <div class="banner-img">
+                                        <img src="upload/banner_04.jpg" alt="" class="img-fluid">
+                                        <!-- <iframe src='https://chaturbate.com/in/?tour=nvfS&campaign=3rays&track=embed&bgcolor=white' height=400 width=450 style='border:none;'></iframe> -->
+                                    </div><!-- end banner-img -->
+                                </div><!-- end banner -->
+                            </div><!-- end widget -->
+
+                            <div class="widget">
+                                <h2 class="widget-title">Instagram Feed</h2>
+                                <div class="instagram-wrapper clearfix">
+                                    <a href="#"><img src="images/daVinciCode.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="images/AngelsnDemons.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="images/peaceLike.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="images/d.jpeg" alt="" class="img-fluid"></a>
+                                     <a href="#"><img src="images/threeJunes.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="images/divergent.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="images/f.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="images/beartown.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="images/kiteRunner.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="images/b.jpg" alt="" class="img-fluid"></a>
+                                </div><!-- end Instagram wrapper -->
+                            </div><!-- end widget -->
+
+                            <div class="widget">
+                                <h2 class="widget-title">Popular Categories</h2>
+                                <div class="link-widget">
+                                    <ul>
+                                        <li><a href="#">Gardening <span>(21)</span></a></li>
+                                        <li><a href="#">Outdoor Living <span>(15)</span></a></li>
+                                        <li><a href="#">Indoor Living <span>(31)</span></a></li>
+                                        <li><a href="#">Shopping Guides <span>(22)</span></a></li>
+                                        <li><a href="#">Pool Design <span>(66)</span></a></li>
+                                    </ul>
+                                </div><!-- end link-widget -->
+                            </div><!-- end widget -->
+                        </div><!-- end sidebar -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="widget">
+                            <div class="footer-text text-center">
+                                <a href="index.html"><img src="images/clipart-library-media-specialist-13.png" alt="" class="img-fluid"></a>
+                                <p>One stop to browse and rent books from library for all bibliophiles</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/farhan-khan-b31687170/" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.github.com/farhan0651" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-github"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                </div>
+
+                                <hr class="invis">
+
+                                <div class="newsletter-widget text-center">
+                                    <form class="form-inline">
+                                        <input type="text" class="form-control" placeholder="Enter your email address">
+                                        <button type="submit" class="btn btn-primary">Subscribe <i class="fa fa-envelope-open-o"></i></button>
+                                    </form>
+                                </div><!-- end newsletter -->
+                            </div><!-- end footer-text -->
+                        </div><!-- end widget -->
+                    </div><!-- end col -->
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <br>
+                        <br>
+                        <div class="copyright">&copy; Farhan <a href="/home">Library Management</a>.</div>
+                    </div>
+                </div>
+            </div><!-- end container -->
+        </footer><!-- end footer -->
+
+        <div class="dmtop">Scroll to Top</div>
+        
+    </div><!-- end wrapper -->
+
+    <!-- Core JavaScript
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
